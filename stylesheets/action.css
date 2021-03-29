@@ -1,0 +1,22 @@
+.action {
+  padding: 100px 0;
+  background-image: linear-gradient(black, blue)
+}
+
+.action ul {
+  list-style: none;
+  line-height: 2em;
+}
+
+.action-border {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1em;
+  min-height: 340px;
+}
+
+.datepicker {
+  font-size: 1.2vmax;
+  margin-left: auto;
+  margin-right: auto;
+}

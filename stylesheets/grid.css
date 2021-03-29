@@ -1,0 +1,105 @@
+.buffer-top {
+  margin-top: 20px;
+}
+
+.buffer-top-large {
+  margin-top: 40px;
+}
+
+.buffer-bottom {
+  margin-bottom: 20px;
+}
+
+.buffer-bottom-large {
+  margin-bottom: 40px;
+}
+
+.buffer-both {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buffer-both-large {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-container {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.medium-container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calendar-container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-1-3 {
+  width: 33.33%;
+  float: left;
+}
+
+.column-1-2 {
+  width: 50%;
+  float: left;
+}
+
+.container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.small-container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.medium-container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.calendar-container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media (max-width: 640px) {
+  .column-1-3 {
+    float: none;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .column-1-2 {
+    float: none;
+    width: auto;
+  }
+}

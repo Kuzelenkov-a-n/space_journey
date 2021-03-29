@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Космические путешествия</title>
+  <link rel="stylesheet" href="stylesheets/reset.css">
+
+  <link rel="stylesheet" href="stylesheets/text.css">
+  <link rel="stylesheet" href="stylesheets/button.css">
+  <link rel="stylesheet" href="stylesheets/grid.css">
+
+  <link rel="stylesheet" href="stylesheets/header.css">
+  <link rel="stylesheet" href="stylesheets/intro.css">
+  <link rel="stylesheet" href="stylesheets/features.css">
+  <link rel="stylesheet" href="stylesheets/marketing.css">
+  <link rel="stylesheet" href="stylesheets/price.css">
+  <link rel="stylesheet" href="stylesheets/action.css">
+
+  <script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/datepicker.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/parallax.js-1.5.0/parallax.min.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="container buffer-both">
+    <div class="header-logo">
+      <h2>SpaceJourney LLC</h2>
+      <h4>космические путешествия</h4>
+    </div>
+    <div class="header-nav">
+      <ul>
+        <li class="header-nav-item">
+          <a class="header-nav-link button button-nav" href="#buy">БРОНЬ</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="wallpapers/space.jpg">
+  <h1 class="title-large">Незабываемое путешествие на любую планету Солнечной системы!</h1>
+</div>
+
+<div class="features">
+  <div class="container text-center">
+    <div class="column-1-3">
+      <div class="features-item">
+        <img class="features-icon" src="icons/planet.png" alt="Планета">
+        <p class="title-medium">Это возможно</p>
+        <p class="text-lead">Выбирайте планету -</p>
+        <p class="text-lead">- остальное за нами</p>
+      </div>
+    </div>
+    <div class="column-1-3">
+      <div class="features-item">
+        <img class="features-icon" src="icons/astronaut.png" alt="Астронавт">
+        <p class="title-medium">Стань первым!</p>
+        <p class="text-lead">Вы можете первым ступить</p>
+        <p class="text-lead">на поверхность планеты</p>
+      </div>
+    </div>
+    <div class="column-1-3">
+      <div class="features-item">
+        <img class="features-icon" src="icons/thumbs-up.png" alt="Палец вверх">
+        <p class="title-medium">Нереальные эмоции</p>
+        <p class="text-lead">Вы запомните эти моменты</p>
+        <p class="text-lead">навсегда!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="marketing text-center" data-parallax="scroll" data-image-src="wallpapers/shuttle.jpg">
+  <div class="container">
+    <div class="column-1-3">
+      <div class="marketing-item buffer-both-large">
+        <p class="title-medium">Опыт</p>
+        <p class="text-lead">Более 40000+</p>
+        <p class="text-lead">довольных клиентов</p>
+      </div>
+    </div>
+    <div class="column-1-3">
+      <div class="marketing-item buffer-both-large">
+      </div>
+    </div>
+    <div class="column-1-3">
+      <div class="marketing-item buffer-both-large">
+        <p class="title-medium">Подготовка</p>
+        <p class="text-lead">Бесплатный тестовый</p>
+        <p class="text-lead">полёт по орбите Земли</p>
+        <p class="text-lead">Вы увидете как это просто!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="prices text-center" id="prices">
+  <div class="container buffer-both-large">
+    <h2 class="title-medium">Стоимость билетов</h2>
+    <p class="text-lead">Пожизненная гарантия на счастливые воспоминания</p>
+  </div>
+</div>
+
+<div class="container buffer-both-large">
+  <div class="prices">
+    <div class="column-1-3 text-center">
+      <div class="small-container price-border">
+        <h2 class="title-medium">ЭКОНОМ</h2>
+        <ul class="text-medium text-left">
+          <li>Ручная кладь - 5 кг.</li>
+          <li>Лёгкий завтрак</li>
+          <li>Обед</li>
+          <li>Трансфер</li>
+        </ul>
+        <h2 class="title-medium fare-price">
+          500.000&nbsp;€
+        </h2>
+        <a class="button button-gray" href="#buy">Заказать</a>
+      </div>
+    </div>
+    <div class="column-1-3 text-center">
+      <div class="small-container price-border">
+        <h2 class="title-medium">СТАНДАРТ</h2>
+        <ul class="text-medium text-left">
+          <li>Ручная кладь - 5 кг.</li>
+          <li>Багаж - 30 кг.</li>
+          <li>Завтрак</li>
+          <li>Обед</li>
+          <li>Ужин</li>
+          <li>Трансфер</li>
+        </ul>
+        <h2 class="title-medium fare-price">
+          800.000&nbsp;€
+        </h2>
+        <a class="button button-blue" href="#buy">Заказать</a>
+      </div>
+    </div>
+    <div class="column-1-3 text-center">
+      <div class="small-container price-border">
+        <h2 class="title-medium">VIP</h2>
+        <ul class="text-medium text-left">
+          <li>Всё включено!</li>
+          <li>Можно всё!</li>
+        </ul>
+        <div class="title-medium fare-price">
+          1.500.000&nbsp;€
+        </div>
+        <a class="button button-gold" href="#buy">Заказать</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="action" id="buy">
+  <div class="container buffer-top-large">
+    <div class="column-1-2">
+      <h2 class="title-small text-left">Бронирование даты вылета:</h2>
+      <div class="datepicker"></div>
+    </div>
+    <div class="column-1-2 text-center">
+      <div class="medium-container action-border">
+        <ul>
+          <li>E-mail:</li>
+          <li><input type="text" size="30" placeholder="mail@mail.ru"></li>
+          <li>Моб.тел.:</li>
+          <li><input type="text" size="30" placeholder="+7(___)___-__-__"></li>
+        </ul>
+        <p class="text-lead buffer-top-large">Если остались вопросы - укажите мобильный телефон, мы с Вами свяжемся в максимально сжатые сроки</p>
+        <a class="button button-act buffer-top-large" href="#intro">Подтвердить выбор</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

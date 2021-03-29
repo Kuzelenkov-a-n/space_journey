@@ -1,0 +1,62 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.button-nav {
+  color: white;
+  border: 2px solid white;
+}
+
+.button-nav:hover {
+  color: black;
+  transition: all ease .3s;
+  background: white;
+}
+
+.button-blue {
+  background: blue;
+  color: white;
+}
+
+.button-blue:hover {
+  color: black;
+  transition: all ease .3s;
+  background: deepskyblue;
+}
+
+.button-gray {
+  background: lightgrey;
+}
+
+.button-gray:hover {
+  color: black;
+  transition: all ease .3s;
+  background: white;
+}
+
+.button-gold {
+  background: gold;
+}
+
+.button-gold:hover {
+  color: black;
+  transition: all ease .3s;
+  background: yellow;
+}
+
+.button-act {
+  color: white;
+  border: 2px solid white;
+}
+
+.button-act:hover {
+  color: black;
+  transition: all ease .3s;
+  background: white;
+}
