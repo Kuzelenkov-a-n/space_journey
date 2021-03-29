@@ -38,7 +38,7 @@
   .header {
     position: inherit;
     width: auto;
-    background: #fff;
+    background: black;
     top: auto;
     opacity: 1;
   }
@@ -46,6 +46,7 @@
   .header-nav,
   .header-logo {
     float: none;
+    background: black;
   }
 
 }
